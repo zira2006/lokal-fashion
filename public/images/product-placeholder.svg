@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Lokal Fashion">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3e9dc"/>
+      <stop offset="55%" stop-color="#e9dccb"/>
+      <stop offset="100%" stop-color="#dcc7b0"/>
+    </linearGradient>
+    <linearGradient id="cloth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8a887"/>
+      <stop offset="100%" stop-color="#a9805e"/>
+    </linearGradient>
+    <pattern id="batik" width="72" height="72" patternUnits="userSpaceOnUse" opacity="0.28">
+      <circle cx="18" cy="18" r="6" fill="none" stroke="#8f6a4c" stroke-width="1.4"/>
+      <circle cx="54" cy="54" r="6" fill="none" stroke="#8f6a4c" stroke-width="1.4"/>
+      <path d="M36 8v12M36 52v12M8 36h12M52 36h12" stroke="#8f6a4c" stroke-width="1.2"/>
+      <path d="M18 18l18 18 18-18 18 18" fill="none" stroke="#8f6a4c" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <rect width="900" height="1200" fill="url(#batik)"/>
+
+  <g transform="translate(450 500)" fill="none" stroke="#7d5b40" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-120 -95 L-52 -150 L-18 -126 L18 -126 L52 -150 L120 -95 L86 -52 L62 -68 L62 150 L-62 150 L-62 -68 L-86 -52 Z" fill="url(#cloth)" stroke="#8a6749"/>
+    <path d="M-18 -126 Q0 -96 18 -126" />
+    <path d="M0 -92 V148" stroke="#8a6749" stroke-width="3" opacity="0.55"/>
+    <circle cx="0" cy="-20" r="3.5" fill="#f6ede2" stroke="none"/>
+    <circle cx="0" cy="34" r="3.5" fill="#f6ede2" stroke="none"/>
+    <circle cx="0" cy="88" r="3.5" fill="#f6ede2" stroke="none"/>
+  </g>
+
+  <text x="450" y="760" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="52" letter-spacing="8" fill="#5f4733">LOKAL FASHION</text>
+  <text x="450" y="808" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="5" fill="#8b7360">KARYA LOKAL INDONESIA</text>
+</svg>
